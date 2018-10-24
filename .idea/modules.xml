@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BuildYourOwnRxJSPipableOperators.iml" filepath="$PROJECT_DIR$/.idea/BuildYourOwnRxJSPipableOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rxjs-operators.iml" filepath="$PROJECT_DIR$/.idea/rxjs-operators.iml" />
     </modules>
   </component>
 </project>

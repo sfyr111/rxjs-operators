@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+.wepy
+*.xml
+.idea/
+.idea/*.xml
+.idea
+npm-debug.log
+.wepycache

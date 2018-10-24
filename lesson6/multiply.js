@@ -1,4 +1,4 @@
-import { Subscriber } from 'rxjs'
+// import { Subscriber } from 'rxjs'
 import { map } from 'rxjs/operators'
 
 // export class MultiplySubscriber extends Subscriber {

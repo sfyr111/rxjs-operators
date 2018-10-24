@@ -17,25 +17,36 @@ class DoubleSubscriber extends Subscriber {
 
 // observable$.subscribe(new DoubleSubscriber(subscribe))
 
-const o$ = new Observable()
-o$.source = observable$
-o$.operator = {
+// const o$ = new Observable()
+// o$.source = observable$
+// o$.operator = {
+//   call(sub, source) {
+//     source.subscribe(new DoubleSubscriber(sub))
+//   }
+// }
+// o$.subscribe(subscribe)
+// observable$.subscribe(subscribe) // 缺少了 source
+
+
+// 方法1
+// const double = source => {
+//   const o$ = new Observable()
+//   o$.source = observable$
+//   o$.operator = {
+//     call(sub, source) {
+//       source.subscribe(new DoubleSubscriber(sub))
+//     }
+//   }
+//   return o$
+// }
+
+// 使用 lift
+const double = source => source.lift({
   call(sub, source) {
     source.subscribe(new DoubleSubscriber(sub))
   }
-}
-o$.subscribe(subscribe)
-observable$.subscribe(subscribe) // 缺少了 source
-
+})
 // 用 pipe 解决
-observable$.pipe(source => {
-  // 不要用这种方法
-  const o$ = new Observable()
-  o$.source = observable$
-  o$.operator = {
-    call(sub, source) {
-      source.subscribe(new DoubleSubscriber(sub))
-    }
-  }
-  return o$
-}).subscribe(subscribe)
+observable$
+  .pipe(double)
+  .subscribe(subscribe)

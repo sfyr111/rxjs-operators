@@ -4,6 +4,8 @@
     <list default="true" id="85a27a92-edb4-44b5-9134-24cde79fa7b1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson10/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson10/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson11/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson11/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8/map.js" />
@@ -27,10 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson10/index.js">
+        <entry file="file://$PROJECT_DIR$/lesson11/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="235">
+              <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -48,6 +50,9 @@
       <find>DoubleSubscriber</find>
       <find>subscribe</find>
       <find>MergeMap</find>
+      <find>switchMap</find>
+      <find>mySwitchMap</find>
+      <find>MySwitchMapSubscriber</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,6 +86,8 @@
         <option value="$PROJECT_DIR$/lesson9/index.js" />
         <option value="$PROJECT_DIR$/lesson10/index.html" />
         <option value="$PROJECT_DIR$/lesson10/index.js" />
+        <option value="$PROJECT_DIR$/lesson11/index.html" />
+        <option value="$PROJECT_DIR$/lesson11/index.js" />
       </list>
     </option>
   </component>
@@ -154,7 +161,7 @@
             <path>
               <item name="rxjs-operators" type="b2602c69:ProjectViewProjectNode" />
               <item name="rxjs-operators" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson10" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,12 +226,12 @@
       <workItem from="1540360067030" duration="980000" />
       <workItem from="1540363617589" duration="5993000" />
       <workItem from="1540377316084" duration="2970000" />
-      <workItem from="1540390160849" duration="3133000" />
+      <workItem from="1540390160849" duration="4130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13076000" />
+    <option name="totallyTimeSpent" value="14073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="830" y="23" width="850" height="945" extended-state="0" />
@@ -268,7 +275,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -294,7 +301,7 @@
         <state relative-caret-position="273">
           <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,7 +537,7 @@
         <state relative-caret-position="486">
           <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="11" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -556,7 +563,7 @@
         <state relative-caret-position="399">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,8 +578,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson10/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="500">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson11/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>

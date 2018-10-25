@@ -8,3 +8,4 @@ dist
 .idea
 npm-debug.log
 .wepycache
+.cache
